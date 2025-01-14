@@ -35,4 +35,6 @@ app.listen(process.env.APP_PORT, () => {
   console.log(`Example app listening on port ${process.env.APP_PORT}`)
 })
 
+app.disable("x-powered-by");
+
 module.exports = app
