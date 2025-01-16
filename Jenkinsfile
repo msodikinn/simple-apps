@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout SCM') {
             steps {
-                git branch: 'main', url: 'https://github.com/msodikinn/simple-apps'
+                git branch: 'dev-compose', url: 'https://github.com/msodikinn/simple-apps'
             }
         }
         stage('Build') {
